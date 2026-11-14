@@ -19,3 +19,6 @@
 .film-player figcaption{display:flex;justify-content:space-between;gap:18px;padding-top:16px;color:#d7b7c9;font-size:12px}
 .film-player figcaption span:last-child{direction:rtl}
 @media(max-width:700px){.film-ready .film-inner{padding:55px 5% 40px}.film-ready h2{font-size:30px}.film-intro{font-size:14px;padding:0 4%}.film-player{margin-top:28px}.film-ready video{border-radius:6px}.film-player figcaption{font-size:10px;gap:10px;padding-top:12px}}
+
+/* Keep the model's face visible in this gallery thumbnail. */
+.gallery-item.item-1 > img { object-position: center top; }
