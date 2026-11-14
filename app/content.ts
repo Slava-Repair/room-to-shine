@@ -4,7 +4,7 @@ export const content = {
   tagline: 'אופנה. יצירה. חיים.',
   heroTitle: 'לכל אישה מגיע\nמקום לזרוח.',
   heroDescription: 'מיזם של אופנה, יצירה וקהילה, שמזמין נשים המתמודדות עם אתגרים נפשיים לעלות על המסלול — ולתת מקום לעצמן.',
-  founderName: 'בתאל סמית',
+  founderName: 'בתאל גרין',
   founderImage: '/images/batel.jpg', // Temporary photo selected by the owner.
   videoUrl: '/video/tatzugat-hanefesh-2026.mp4',
   videoPoster: '/images/film-poster.jpg',
