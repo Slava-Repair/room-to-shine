@@ -22,3 +22,7 @@
 
 /* Keep the model's face visible in this gallery thumbnail. */
 .gallery-item.item-1 > img { object-position: center top; }
+
+/* One white Hebrew hero title. */
+.hero-copy h1{font-size:clamp(60px,6.2vw,92px);color:#fff;white-space:nowrap}
+@media(max-width:700px){.hero-copy h1{font-size:clamp(32px,10.7vw,56px)}}
