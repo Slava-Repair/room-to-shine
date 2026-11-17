@@ -2,7 +2,7 @@
 export const content = {
   name: 'מקום לזרוח',
   tagline: 'אופנה. יצירה. חיים.',
-  heroTitle: 'לכל אישה מגיע\nמקום לזרוח.',
+  heroTitle: 'לכל אישה מגיע\nקינטסיגי סטייל',
   heroDescription: 'מיזם של אופנה, יצירה וקהילה, שמזמין נשים המתמודדות עם אתגרים נפשיים לעלות על המסלול — ולתת מקום לעצמן.',
   founderName: 'בתאל גרין',
   founderImage: '/images/batel.jpg', // Temporary photo selected by the owner.
