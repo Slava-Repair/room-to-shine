@@ -1,6 +1,6 @@
 // Editable site content. Images are relative to public/. Replace paths and copy here.
 export const content = {
-  name: 'מקום לזרוח',
+  name: 'קינטסוגי סטייל',
   tagline: 'אופנה. יצירה. חיים.',
   heroTitle: 'קינטסוגי סטייל',
   heroDescription: 'מיזם של אופנה, יצירה וקהילה, שמזמין נשים המתמודדות עם אתגרים נפשיים לעלות על המסלול — ולתת מקום לעצמן.',
