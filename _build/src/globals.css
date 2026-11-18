@@ -26,3 +26,7 @@
 /* One white Hebrew hero title. */
 .hero-copy h1{font-size:clamp(60px,6.2vw,92px);color:#fff;white-space:nowrap}
 @media(max-width:700px){.hero-copy h1{font-size:clamp(32px,10.7vw,56px)}}
+
+/* Full rectangular founder portrait supplied on 18 November 2026. */
+.founder-portrait{height:auto;border-radius:0;background:none;display:block}
+.founder-portrait img{display:block;width:100%;height:auto;border-radius:0;object-fit:contain}
