@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 export const metadata: Metadata = {
- title:'מקום לזרוח | אופנה, יצירה וקהילה',
+ title:'קינטסוגי סטייל | אופנה, יצירה וקהילה',
  description:'מיזם האופנה של בתאל — נשים, יצירה וקהילה. לכל אישה מגיע מקום לזרוח.',
  icons:{icon:'/favicon.svg'},
 };
