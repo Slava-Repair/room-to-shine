@@ -16,6 +16,7 @@ export const content = {
     {src:base + 'images/artwork-2.jpg',title:'יצירה בגוני אדום וזהב',category:'יצירה'},
     {src:base + 'images/artwork-3.jpg',title:'יצירה בגוני ורוד ואדום',category:'יצירה'},
   ],
+  supportingOrganizations: ['רשת מרכזים קהילתיים מרכז־צפון נתניה', 'החברה למתנ״סים נתניה', 'מרכז קהילתי גלי ים', 'חברה וקהילה', 'המחלקה לאנשים עם מוגבלות', 'תוכנית עמיתים לבוגרים'],
   sponsors: [] as { name: string; description: string }[],
   gallery: [
     {src:base + 'images/group.jpg', title:'יחד, על אותה במה', category:'קהילה'},
