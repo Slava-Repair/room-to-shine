@@ -5,7 +5,7 @@ export const content = {
   heroTitle: 'קינטסוגי סטייל',
   heroDescription: 'מיזם של אופנה, יצירה וקהילה, שמזמין נשים המתמודדות עם אתגרים נפשיים לעלות על המסלול — ולתת מקום לעצמן.',
   founderName: 'בתאל גרין',
-  founderImage: '/images/batel.jpg', // Temporary photo selected by the owner.
+  founderImage: '/images/batel-portrait.png', // Portrait supplied by the owner.
   videoUrl: '/video/tatzugat-hanefesh-2026.mp4',
   videoPoster: '/images/film-poster.jpg',
   contactEmail: '',
