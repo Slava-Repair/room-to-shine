@@ -45,3 +45,9 @@
 .sponsor-placeholder{display:flex;align-items:center;gap:18px;padding:22px;border:1px dashed #b99ca9;color:var(--muted);min-width:0;font-size:15px}
 @media(max-width:1000px){.sponsor-grid{grid-template-columns:1fr}.sponsor-placeholder{padding:20px}}
 @media(max-width:700px){.organization-grid{grid-template-columns:1fr;gap:14px}.organization-card{padding:18px;gap:18px}.organization-card h3{font-size:19px}.organization-logo{flex-basis:76px;width:76px;height:76px}.organizations-intro{font-size:16px}.organization-support h2,.project-sponsors h2{font-size:32px}}
+
+/* Supplied supporter logos: preserve each image's complete proportions. */
+.organization-logo.has-logo{display:flex;align-items:center;justify-content:center;flex-basis:150px;width:150px;height:110px;background:none;border:0}
+.organization-logo.has-logo img{min-width:0;min-height:0;display:block;width:100%;height:100%;object-fit:contain}
+@media(max-width:700px){.organization-logo.has-logo{flex-basis:110px;width:110px;height:100px}.organization-card h3{font-size:18px}}
+@media(max-width:360px){.organization-card{gap:12px;padding:14px}.organization-logo.has-logo{flex-basis:96px;width:96px}}
