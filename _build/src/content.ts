@@ -17,6 +17,7 @@ export const content = {
     {src:base + 'images/artwork-3.jpg',title:'יצירה בגוני ורוד ואדום',category:'יצירה'},
   ],
   supportingOrganizations: [{"name": "רשת מרכזים קהילתיים מרכז־צפון נתניה", "logo": "/images/supporters/community-north.png"}, {"name": "החברה למתנ״סים נתניה", "logo": "/images/supporters/community-centers.png"}, {"name": "מרכז קהילתי גלי ים", "logo": "/images/supporters/galei-yam.png"}, {"name": "חברה וקהילה", "logo": ""}, {"name": "משרד הבריאות", "logo": "/images/supporters/health-ministry.png"}, {"name": "תוכנית עמיתים לבוגרים", "logo": "/images/supporters/amitim.png"}],
+  projectSponsors: [{"name": "חני קליין", "description": "עיצוב אופנה"}, {"name": "סטודיו טולה", "description": "עיצוב אופנה"}, {"name": "סטודיו מונה ליזה", "description": "עיצוב אופנה"}, {"name": "מרים יוסף", "description": "סטיילינג"}, {"name": "נועה גביש", "description": "איפור"}, {"name": "מאור ישראל", "description": "איפור"}, {"name": "רינת אבישור", "description": "איפור"}, {"name": "ברנדה בן חיון", "description": "עיצוב שיער"}, {"name": "שירן שמש", "description": "עיצוב שיער"}, {"name": "וידאו קומפורט", "description": ""}],
   sponsors: [] as { name: string; description: string }[],
   gallery: [
     {src:base + 'images/group.jpg', title:'יחד, על אותה במה', category:'קהילה'},

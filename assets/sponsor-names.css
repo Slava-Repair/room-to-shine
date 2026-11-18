@@ -1,0 +1,4 @@
+
+/* Individual sponsor names with space for future logos. */
+.project-sponsors .organization-card p{color:var(--muted);font-size:15px;margin-top:8px}
+.project-sponsors .organization-card>div:last-child{min-width:0}
