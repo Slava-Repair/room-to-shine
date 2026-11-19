@@ -1,0 +1,21 @@
+/* Main entry point for the support form. */
+#support .support-open {
+  width: min(310px, 100%);
+  min-height: 62px;
+  gap: clamp(.75rem, 4vw, 1.5rem);
+  padding: .85rem 1rem;
+  font-size: clamp(20px, 5.5vw, 24px);
+  font-weight: 700;
+}
+
+.support-coin {
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 26px;
+  height: 26px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  color: var(--rose);
+  font-size: 15px;
+  line-height: 1;
+}
