@@ -9,7 +9,7 @@ export const content = {
   videoUrl: '/video/tatzugat-hanefesh-2026.mp4',
   videoPoster: '/images/film-poster.jpg',
   contactEmail: 'batel@batelgreen.co.il',
-  contactWhatsApp: '97255565655', // International number, digits only.
+  contactWhatsApp: '972555565655', // International number, digits only.
   donationUrl: '',
   artworks: [
     {src:'/images/artwork-1.jpg',title:'יצירה בגוני כחול',category:'יצירה'},
