@@ -9,7 +9,8 @@ export const content = {
   founderImage: base + 'images/batel-portrait-nov19.jpg', // Portrait supplied by the owner.
   videoUrl: base + 'video/tatzugat-hanefesh-2026.mp4',
   videoPoster: base + 'images/film-poster.jpg',
-  contactEmail: '',
+  contactEmail: 'batel@batelgreen.co.il',
+  contactWhatsApp: '97255565655', // International number, digits only.
   donationUrl: '',
   artworks: [
     {src:base + 'images/artwork-1.jpg',title:'יצירה בגוני כחול',category:'יצירה'},

@@ -161,3 +161,126 @@
 .kintsugi-article li + li {
   margin-top: .5em;
 }
+
+.support-dialog {
+  width: min(620px, 94vw);
+  max-width: 100%;
+  padding: 1.8rem clamp(1.25rem, 5vw, 3rem);
+}
+
+.support-dialog > span {
+  display: block;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.support-dialog h2 {
+  font-size: clamp(28px, 5vw, 38px);
+  margin: .65rem 0 .85rem;
+}
+
+.support-dialog > p {
+  line-height: 1.55;
+}
+
+.support-dialog .underline-link {
+  margin-top: .85rem;
+}
+
+.support-contact {
+  margin-top: 1rem;
+}
+
+.support-contact-fields,
+.support-contact-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .65rem 1rem;
+}
+
+.support-contact-fields label {
+  display: block;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.support-contact-wide {
+  grid-column: 1 / -1;
+}
+
+.support-field-required {
+  color: #9a4269;
+}
+
+.support-field-optional {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.support-contact input,
+.support-contact textarea {
+  display: block;
+  width: 100%;
+  margin-top: .25rem;
+  padding: .55rem .7rem;
+  border: 1px solid #bda7b3;
+  border-radius: 3px;
+  background: #fffdfa;
+  color: var(--ink);
+  font: inherit;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.support-contact textarea {
+  resize: vertical;
+}
+
+.support-contact input:focus-visible,
+.support-contact textarea:focus-visible {
+  outline: 2px solid #a44970;
+  outline-offset: 2px;
+}
+
+.support-contact-actions {
+  margin-top: 1rem;
+}
+
+.support-send {
+  min-height: 46px;
+  padding: .55rem .6rem;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+}
+
+.support-send-email {
+  background: #24599a;
+}
+
+.support-send-whatsapp {
+  background: #18734d;
+}
+
+.support-send:hover:not(:disabled) {
+  filter: brightness(.9);
+}
+
+.support-send:disabled {
+  cursor: not-allowed;
+  opacity: .65;
+}
+
+.support-dialog .support-contact-help {
+  color: var(--muted);
+  font-size: .85rem;
+  margin-top: .65rem;
+}
+
+@media (max-width: 440px) {
+  .support-contact-fields,
+  .support-contact-actions {
+    grid-template-columns: 1fr;
+  }
+}
