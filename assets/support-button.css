@@ -1,0 +1,14 @@
+/* Main entry point for the support form. */
+#support .support-open {
+  min-width: min(244px, 100%);
+  max-width: 100%;
+  gap: 1.4rem;
+  padding: .9rem 1.6rem;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.support-open svg {
+  flex: none;
+  color: var(--rose);
+}
