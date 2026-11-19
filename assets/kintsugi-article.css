@@ -1,0 +1,42 @@
+
+.kintsugi-section {
+  background: #f2e7eb;
+}
+
+.kintsugi-article {
+  max-width: 720px;
+  margin-inline: auto;
+}
+
+.kintsugi-article h2 {
+  margin-bottom: 1.7rem;
+}
+
+.kintsugi-article h2 a {
+  color: #894062;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: .16em;
+}
+
+.kintsugi-article h2 a:hover {
+  color: var(--plum);
+}
+
+.kintsugi-article h3 {
+  margin-top: 1.85rem;
+  margin-bottom: .55rem;
+}
+
+.kintsugi-article p,
+.kintsugi-article ul {
+  color: var(--muted);
+}
+
+.kintsugi-article ul {
+  padding-inline-start: 1.4em;
+}
+
+.kintsugi-article li + li {
+  margin-top: .5em;
+}
