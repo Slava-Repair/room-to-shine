@@ -82,3 +82,40 @@
 @media(max-width:700px){.hero-batel-logo{width:197px}}
 
 @media(max-width:700px){.hero{padding-right:60px}.hero-copy h1{font-size:clamp(30px,9.5vw,50px)}}
+
+/* Small temporary logo in the founder section. */
+.founder-mark {
+  width: clamp(96px, 9vw, 132px);
+  height: auto;
+  justify-self: left;
+  align-self: start;
+  grid-area: 1 / 2;
+  margin-top: -3px;
+}
+
+.founder > .founder-portrait {
+  grid-area: 1 / 1;
+  align-self: start;
+}
+
+.founder > .founder-copy {
+  grid-area: 1 / 2;
+  padding-top: 112px;
+}
+
+@media (max-width: 700px) {
+  .founder > .founder-mark,
+  .founder > .founder-portrait,
+  .founder > .founder-copy {
+    grid-area: auto;
+  }
+
+  .founder > .founder-mark {
+    width: 84px;
+    margin: 0;
+  }
+
+  .founder > .founder-copy {
+    padding-top: 0;
+  }
+}
