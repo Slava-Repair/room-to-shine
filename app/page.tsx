@@ -45,7 +45,16 @@ export default function Home(){
   </figure>
  </section>
  <section id="journey" className="journey section"><div className="section-heading"><div><p className="eyebrow">02 / הדרך לבמה</p><h2>זה מתחיל במפגש.<br/>וממשיך הרבה מעבר למסלול.</h2></div><p>התהליך חשוב לא פחות מרגע השיא.<br/>בכל שלב נבנים קשר, ביטחון ומקום לעצמך.</p></div><div className="journey-layout"><img src="/images/meeting-batel-listening.jpg" alt="בתאל מקשיבה במפגש קבוצתי" loading="lazy"/><div className="steps">{[['נפגשות','מכירות, משתפות ויוצרות קשרים במרחב שמאפשר לכל אחת להיות היא עצמה.'],['מגלות ומתרגלות','חזרות, שיחות ובחירת בגדים — עם ליווי, הקשבה ועידוד הדדי.'],['עולות על המסלול','לובשות יצירות של מעצבות ומעצבים מקומיים, ופוגשות קהל שבא לראות, להתרגש ולתמוך.']].map(([title,text],i)=><article key={title}><span className="step-number">0{i+1}</span><div><h3>{title}</h3><p>{text}</p></div></article>)}</div></div></section>
- <section id="founder" className="founder section"><img className="founder-mark" src="/images/batel-hero-gold.png" width={1374} height={1145} alt="" loading="lazy"/><div className="founder-portrait">{c.founderImage?<img src={c.founderImage} alt={c.founderName}/>:<div><span>✳</span><p>כאן יופיע הדיוקן של {c.founderName}</p><small>התמונה תיבחר יחד עם יוצרת המיזם</small></div>}<a className="founder-website" href="https://batelgreen.co.il/" target="_blank" rel="noopener noreferrer" aria-label="לאתר של בתאל גרין — נפתח בלשונית חדשה">לאתר של בתאל גרין ↗</a></div><div className="founder-copy"><p className="eyebrow">האישה שמאחורי הרעיון</p><h2>חזון שמתחיל<br/>בלראות את האחרת.</h2><h3>{c.founderName} · יוזמת ומובילת המיזם</h3><p>מתוך שנים של עבודה בתוכנית ״עמיתים״ וליווי אנשים המתמודדים עם אתגרים נפשיים, נולד אצל בתאל רעיון: ליצור במה שמאפשרת לנשים לבטא את עצמן, לפגוש קהילה ולחוות שמחה וגאווה.</p><p>הרעיון הפך למפגשים, לחזרות ולתצוגות אופנה. לצד המשתתפות, נרקם מעגל של אנשי יצירה, מעצבים ותומכים שמסייעים להביא את החזון אל הבמה.</p><p className="editor-note">הביוגרפיה מבוססת על תיאור המיזם ותעודכן יחד עם בתאל.</p></div></section>
+ <section id="founder" className="founder section"><img className="founder-mark" src="/images/batel-hero-gold.png" width={1374} height={1145} alt="" loading="lazy"/><div className="founder-portrait">{c.founderImage?<img src={c.founderImage} alt={c.founderName}/>:<div><span>✳</span><p>כאן יופיע הדיוקן של {c.founderName}</p><small>התמונה תיבחר יחד עם יוצרת המיזם</small></div>}<a className="founder-website" href="https://batelgreen.co.il/" target="_blank" rel="noopener noreferrer" aria-label="לאתר של בתאל גרין — נפתח בלשונית חדשה">לאתר של בתאל גרין ↗</a></div><div className="founder-copy">
+   <p className="eyebrow">האישה שמאחורי הרעיון</p>
+   <h2>{c.founderName}</h2>
+   <h3>יוזמת ומייסדת קינטסוגי סטייל</h3>
+   <p>מנחת קבוצות, מרצה באקדמיה ומלווה תהליכי שינוי, מחברת בין עולמות הנפש, האופנה והזהות האישית.</p>
+   <p>״במשך שנים של עבודה עם אנשים המתמודדים עם אתגרים נפשיים, נחשפתי שוב ושוב לפער שבין האופן שבו החברה רואה אדם לבין מי שהוא באמת.</p>
+   <p>מתוך המפגש הזה, והאהבה שלי ליצירה ולאופנה, נולד קינטסוגי סטייל - מיזם שמחבר בין אופנה לנפש, בין ביטוי אישי לשייכות, ובין הסדקים שאנחנו נושאות לזהב הטמון בהם.״</p>
+   <p><em>״מעולם לא רציתי רק שנשים יעלו על המסלול. רציתי שיגלו כמה רחוק הן יכולות ללכת גם אחריו.״</em></p>
+  </div>
+ </section>
   <section id="kintsugi" className="section kintsugi-section" aria-labelledby="kintsugi-title">
     <article className="kintsugi-article">
       <h2 id="kintsugi-title">
