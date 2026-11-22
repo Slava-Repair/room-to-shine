@@ -1,7 +1,7 @@
 
-/* Small temporary logo in the founder section. */
+/* Logo in the founder section. */
 .founder-mark {
-  width: clamp(96px, 9vw, 132px);
+  width: clamp(192px, 18vw, 264px);
   height: auto;
   justify-self: left;
   align-self: start;
@@ -27,7 +27,7 @@
   }
 
   .founder > .founder-mark {
-    width: 84px;
+    width: 168px;
     margin: 0;
   }
 
