@@ -2,8 +2,18 @@
 /* Full rectangular founder portrait supplied on 18 November 2026. */
 .founder-portrait{height:auto;border-radius:0;background:none;display:block}
 .founder-portrait img{display:block;width:100%;height:auto;border-radius:0;object-fit:contain}
+.founder {
+  --founder-green: #013104;
+  --founder-green-highlight: #2a4b29;
+}
+
+.founder .founder-copy,
+.founder .founder-copy p {
+  color: var(--founder-green);
+}
+
 .founder-portrait > img {
-  outline: 1px solid #2a4b29;
+  outline: 1px solid var(--founder-green-highlight);
   outline-offset: 1px;
-  box-shadow: 0 0 0 3px #013104;
+  box-shadow: 0 0 0 3px var(--founder-green);
 }
