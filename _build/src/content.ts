@@ -4,7 +4,11 @@ export const content = {
   name: 'קינטסוגי סטייל',
   tagline: 'אופנה. יצירה. חיים.',
   heroTitle: 'קינטסוגי סטייל',
-  heroDescription: 'מיזם של אופנה, יצירה וקהילה, שמזמין נשים המתמודדות עם אתגרים נפשיים לעלות על המסלול — ולתת מקום לעצמן.',
+  heroDescription: [
+    'בין ארון הבגדים לארון הנפש.',
+    'לפעמים החיים מורידים אותנו מהמסלול.\nאני מזמינה נשים לעלות עליו מחדש.',
+    'לא כדי להציג בגדים.\nאלא כדי להפסיק להסתיר את עצמן.',
+  ],
   founderName: 'בתאל גרין',
   founderImage: base + 'images/batel-portrait-nov19.jpg', // Portrait supplied by the owner.
   videoUrl: base + 'video/tatzugat-hanefesh-2026.mp4',

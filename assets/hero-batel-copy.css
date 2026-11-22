@@ -1,0 +1,17 @@
+.hero-description {
+  color: #fff;
+  line-height: 1.55;
+  white-space: pre-line;
+}
+
+.hero-description p {
+  margin: 0;
+}
+
+.hero-description p:first-child {
+  font-weight: 500;
+}
+
+.hero-description p + p {
+  margin-top: .55em;
+}
