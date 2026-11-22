@@ -2,3 +2,4 @@
 /* Full rectangular founder portrait supplied on 18 November 2026. */
 .founder-portrait{height:auto;border-radius:0;background:none;display:block}
 .founder-portrait img{display:block;width:100%;height:auto;border-radius:0;object-fit:contain}
+.founder-portrait > img{outline:3px ridge #013104}
