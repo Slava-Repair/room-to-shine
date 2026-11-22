@@ -30,7 +30,11 @@
 /* Full rectangular founder portrait supplied on 18 November 2026. */
 .founder-portrait{height:auto;border-radius:0;background:none;display:block}
 .founder-portrait img{display:block;width:100%;height:auto;border-radius:0;object-fit:contain}
-.founder-portrait > img{outline:3px ridge #013104}
+.founder-portrait > img {
+  outline: 1px solid #2a4b29;
+  outline-offset: 1px;
+  box-shadow: 0 0 0 3px #013104;
+}
 
 @media(max-width:360px){header{gap:6px}}
 
