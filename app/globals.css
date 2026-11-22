@@ -40,10 +40,12 @@
   color: var(--founder-green);
 }
 
+.story-photo > img,
+.journey-layout > img,
 .founder-portrait > img {
-  outline: 1px solid var(--founder-green-highlight);
+  outline: 1px solid var(--founder-green-highlight, color-mix(in srgb, var(--ink) 78%, white));
   outline-offset: 1px;
-  box-shadow: 0 0 0 3px var(--founder-green);
+  box-shadow: 0 0 0 3px var(--founder-green, var(--ink));
 }
 
 @media(max-width:360px){header{gap:6px}}
