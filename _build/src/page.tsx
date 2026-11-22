@@ -17,7 +17,34 @@ export default function Home(){
  <main id="main">
  <section id="home" className="hero"><img className="hero-image" src={assetBase + "images/hero.jpg"} alt="קולאז׳ אופנה ואמנות מתוך החומרים של הפרויקט"/><div className="hero-shade"/><div className="hero-copy"><p className="eyebrow light">נשים. אומץ. התחלה חדשה.</p><h1>{c.heroTitle.split('\n').map((line,i)=><span key={line} className={i?'pink':''}>{line}</span>)}</h1><div className="hero-description">{c.heroDescription.map(paragraph => <p key={paragraph}>{paragraph}</p>)}</div><div className="hero-actions"><a className="button rose" href="#story">הכירו את המיזם <span>↙</span></a><a className="text-link" href="#gallery">לרגעים מהמסלול <span>←</span></a></div></div><div className="hero-bottom"><span>ביוזמת ובהובלת {c.founderName}</span><span>מרחב לביטוי, שייכות ותקווה</span><a href="#story" aria-label="המשיכו לסיפור שלנו">↓</a></div></section>
  <div className="ribbon"><span>לצעוד בביטחון</span><i>✳</i><span>ליצור בחופשיות</span><i>✳</i><span>להרגיש שייכת</span><i>✳</i><span>לחגוג את החיים</span></div>
- <section id="story" className="section story"><div><p className="eyebrow">01 / הסיפור שלנו</p><h2>הרבה יותר<br/>מתצוגת אופנה.</h2><p className="lead">זו הזמנה להיראות. להיפגש. לגלות מחדש את הכוחות שבך.</p><p>נשים בגילים שונים, מ־18 ועד 80, נפגשות סביב מסלול אחד. כל אחת מביאה איתה סיפור, אישיות וחלומות — ויחד הן יוצרות מרחב של ביטוי עצמי ושייכות.</p><p>המיזם נולד מתוך הרצון לפתוח דלת לחיים חברתיים, ליצירה ולשמחה גם לצד התמודדות נפשית. התצוגה היא רגע מרגש בתוך תהליך של מפגשים, חזרות ושיחות; הזדמנות לצעוד יחד, בקצב של כל אחת.</p><a className="underline-link" href="#journey">הדרך מתחילה הרבה לפני הבמה <span>←</span></a></div><figure className="story-photo"><img src={assetBase + "images/group.jpg"} alt="צילום קבוצתי מתוך אירוע הפרויקט" loading="lazy"/><figcaption><span>כל אחת והסיפור שלה. יחד, סיפור חדש.</span><span>✳</span></figcaption></figure></section>
+ <section id="story" className="section story">
+  <div>
+   <p className="eyebrow">01 / הסיפור שלנו</p>
+   <h2>שלושה שלבים.<br/>מסלול אחד.<br/>הרבה מעבר לתצוגה.</h2>
+   <p className="lead">מה באמת קורה לפני שאישה מעזה לעלות על המסלול ולהיראות?</p>
+   <p>הרבה לפני שאורות הבמה נדלקים, מתחיל המסע האמיתי. מסע של גילוי, בחירה ואומץ לתפוס מקום. לא רק על המסלול. בחיים.</p>
+   <div className="steps">
+     {[
+        ["נפגשות", "מכירות, משתפות ובונות אמון. יוצרות מרחב שבו אפשר להיות בדיוק מי שאנחנו, בלי מסכות ובלי שיפוטיות."],
+        ["מגלות", "דרך אופנה, יצירה והתנסות, מגלות כוחות, בוחרות מחדש ומתרגלות את החופש להיות מי שאנחנו. בלי להתנצל. בלי להצטמצם."],
+        ["מעזות", "עולות על המסלול ביצירות של מעצבות ומעצבים מקומיים. פוגשות את הקהל, את אור הזרקורים ובעיקר את עצמנו. לא כדי להפוך למישהי אחרת, אלא כדי להעז להיראות כפי שאנחנו."],
+     ].map(([title, text], index) => (
+       <article key={title}>
+         <span className="step-number">0{index + 1}</span>
+         <div><h3>{title}</h3><p>{text}</p></div>
+       </article>
+     ))}
+   </div>
+   <a className="underline-link" href="#journey">הדרך מתחילה הרבה לפני הבמה <span>←</span></a>
+  </div>
+  <figure className="story-photo">
+   <img src={assetBase + "images/group.jpg"} alt="צילום קבוצתי מתוך אירוע הפרויקט" loading="lazy"/>
+   <figcaption>
+    <span>כל אחת והסיפור שלה. יחד, סיפור חדש.</span>
+    <span>✳</span>
+   </figcaption>
+  </figure>
+ </section>
  <section id="journey" className="journey section"><div className="section-heading"><div><p className="eyebrow">02 / הדרך לבמה</p><h2>זה מתחיל במפגש.<br/>וממשיך הרבה מעבר למסלול.</h2></div><p>התהליך חשוב לא פחות מרגע השיא.<br/>בכל שלב נבנים קשר, ביטחון ומקום לעצמך.</p></div><div className="journey-layout"><img src={assetBase + "images/meeting-batel-listening.jpg"} alt="בתאל מקשיבה במפגש קבוצתי" loading="lazy"/><div className="steps">{[['נפגשות','מכירות, משתפות ויוצרות קשרים במרחב שמאפשר לכל אחת להיות היא עצמה.'],['מגלות ומתרגלות','חזרות, שיחות ובחירת בגדים — עם ליווי, הקשבה ועידוד הדדי.'],['עולות על המסלול','לובשות יצירות של מעצבות ומעצבים מקומיים, ופוגשות קהל שבא לראות, להתרגש ולתמוך.']].map(([title,text],i)=><article key={title}><span className="step-number">0{i+1}</span><div><h3>{title}</h3><p>{text}</p></div></article>)}</div></div></section>
  <section id="founder" className="founder section"><img className="founder-mark" src={assetBase + "images/batel-hero-gold.png"} width={1374} height={1145} alt="" loading="lazy"/><div className="founder-portrait">{c.founderImage?<img src={c.founderImage} alt={c.founderName}/>:<div><span>✳</span><p>כאן יופיע הדיוקן של {c.founderName}</p><small>התמונה תיבחר יחד עם יוצרת המיזם</small></div>}<a className="founder-website" href="https://batelgreen.co.il/" target="_blank" rel="noopener noreferrer" aria-label="לאתר של בתאל גרין — נפתח בלשונית חדשה">לאתר של בתאל גרין ↗</a></div><div className="founder-copy"><p className="eyebrow">האישה שמאחורי הרעיון</p><h2>חזון שמתחיל<br/>בלראות את האחרת.</h2><h3>{c.founderName} · יוזמת ומובילת המיזם</h3><p>מתוך שנים של עבודה בתוכנית ״עמיתים״ וליווי אנשים המתמודדים עם אתגרים נפשיים, נולד אצל בתאל רעיון: ליצור במה שמאפשרת לנשים לבטא את עצמן, לפגוש קהילה ולחוות שמחה וגאווה.</p><p>הרעיון הפך למפגשים, לחזרות ולתצוגות אופנה. לצד המשתתפות, נרקם מעגל של אנשי יצירה, מעצבים ותומכים שמסייעים להביא את החזון אל הבמה.</p><p className="editor-note">הביוגרפיה מבוססת על תיאור המיזם ותעודכן יחד עם בתאל.</p></div></section>
   <section id="kintsugi" className="section kintsugi-section" aria-labelledby="kintsugi-title">
