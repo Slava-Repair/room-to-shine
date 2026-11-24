@@ -58,9 +58,11 @@ export default function Home(){
  </section>
   <section id="kintsugi" className="section kintsugi-section" aria-labelledby="kintsugi-title">
     <article className="kintsugi-article">
-      <h2 id="kintsugi-title">
-        <a href="https://youtu.be/edK_j7w3_5E?si=yCuKmwr97gGSTQAq">קינטסוגי סטייל</a>
-      </h2>
+      <h2 id="kintsugi-title">קינטסוגי סטייל</h2>
+      <a className="kintsugi-music-link" href="https://www.youtube.com/watch?v=edK_j7w3_5E">
+        <span className="kintsugi-music-icon" aria-hidden="true">▶</span>
+        <span>להאזנה לשיר ״קינטסוגי״ ביוטיוב</span>
+      </a>
       <p>קינטסוגי (<span lang="ja">金継ぎ</span> — "תיקון בזהב" או "חיבור בזהב") היא אמנות יפנית מסורתית לשיקום כלי חרס וקרמיקה שבורים באמצעות לכה טבעית מעץ האורושי (Urushi), המעורבבת באבקת זהב, כסף או פלטינה.</p>
       <h3>איך זה התחיל?</h3>
       <p>הטכניקה צמחה ביפן בסוף המאה ה-15. על פי המסורת ההיסטורית, השוגון אשיקאגה יושימאסה שלח את קערת התה הסינית האהובה עליו לתיקון בסין. הכלי הוחזר אליו כשהוא מחובר בסיכות מתכת גסות שפגמו במראהו. האומנים היפנים חיפשו דרך מעודנת יותר: הם מילאו את הסדקים בלכה וציפו את קווי השבר בזהב, וכך הפכו את הקערה הפגומה ליצירת אמנות ייחודית.</p>

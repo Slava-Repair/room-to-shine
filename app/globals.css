@@ -125,18 +125,40 @@
 }
 
 .kintsugi-article h2 {
-  margin-bottom: 1.7rem;
-}
-
-.kintsugi-article h2 a {
   color: #894062;
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: .16em;
+  margin-bottom: .65rem;
 }
 
-.kintsugi-article h2 a:hover {
+.kintsugi-music-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .6rem;
+  max-width: 100%;
+  min-height: 44px;
+  margin-bottom: 1.3rem;
+  color: #894062;
+  font-weight: 600;
+  line-height: 1.45;
+  text-decoration: none;
+}
+
+.kintsugi-music-icon {
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 2rem;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font-size: .7rem;
+  line-height: 1;
+}
+
+.kintsugi-music-link:hover,
+.kintsugi-music-link:focus-visible {
   color: var(--plum);
+  text-decoration: underline;
+  text-underline-offset: .18em;
 }
 
 .kintsugi-article h3 {
