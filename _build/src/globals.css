@@ -597,3 +597,43 @@
   transform: translateY(0);
   box-shadow: 0 1px 4px rgba(50, 28, 42, .08);
 }
+
+/* This Facebook reel disallows embedding; the card clearly opens its original post. */
+.season-video-link {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  width: min(100%, 680px);
+  margin-top: 2rem;
+  padding: clamp(1.5rem, 4vw, 2.25rem);
+  border: 1px solid #67354f;
+  border-radius: 6px;
+  background: #38152d;
+  color: #fff7fb;
+  box-shadow: 0 6px 18px rgba(50, 28, 42, .10);
+  transition: background-color .18s ease, transform .18s ease;
+}
+.season-video-link:hover,
+.season-video-link:focus-visible {
+  background: #4b2440;
+  transform: translateY(-1px);
+}
+.season-video-play {
+  display: grid;
+  place-items: center;
+  flex: 0 0 3.75rem;
+  width: 3.75rem;
+  height: 3.75rem;
+  border: 1px solid rgba(239, 171, 192, .7);
+  border-radius: 50%;
+  color: #efabc0;
+  font-size: 1.25rem;
+}
+.season-video-copy { display: grid; gap: .35rem; }
+.season-video-copy strong { font-size: clamp(1.25rem, 2.5vw, 1.75rem); font-weight: 500; }
+.season-video-copy > span { color: #efabc0; text-decoration: underline; text-underline-offset: .2em; }
+.season-video-copy small { color: #d7bdcb; font-size: .875rem; }
+@media (max-width: 540px) {
+  .season-video-link { gap: 1rem; }
+  .season-video-play { flex-basis: 3rem; width: 3rem; height: 3rem; }
+}
