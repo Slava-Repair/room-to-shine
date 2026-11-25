@@ -555,3 +555,25 @@
   outline-offset: 1px;
   box-shadow: 0 0 0 3px var(--ink), 0 8px 18px rgba(50, 28, 42, .16);
 }
+
+/* Official organization links and photo-style logo frames. */
+#support-organizations .organization-logo.has-logo {
+  padding: 6px;
+  outline: 1px solid color-mix(in srgb, var(--ink) 78%, white);
+  outline-offset: 1px;
+  box-shadow: 0 0 0 3px var(--ink);
+}
+.organization-name-link {
+  text-decoration: underline;
+  text-decoration-color: #b99ca9;
+  text-decoration-thickness: 1px;
+  text-underline-offset: .22em;
+}
+.organization-name-link:hover,
+.organization-name-link:focus-visible {
+  color: #894062;
+  text-decoration-color: currentColor;
+}
+#support-organizations a.organization-logo:hover {
+  background: #f2e7eb;
+}
