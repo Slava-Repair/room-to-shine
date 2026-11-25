@@ -490,3 +490,16 @@
     grid-template-columns: 1fr;
   }
 }
+
+.gallery-item > img[src*="runway-2026-"] {
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center 65%;
+}
+
+.gallery-item > img[src*="runway-2026-green"],
+.gallery-item > img[src*="runway-2026-red"],
+.gallery-item > img[src*="runway-2026-white"] {
+  object-position: 55% center;
+}
