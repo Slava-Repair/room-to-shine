@@ -1,0 +1,7 @@
+
+/* Match the other photo frames, with a soft lift from the gallery background. */
+#gallery .gallery-item > img {
+  outline: 1px solid color-mix(in srgb, var(--ink) 78%, white);
+  outline-offset: 1px;
+  box-shadow: 0 0 0 3px var(--ink), 0 8px 18px rgba(50, 28, 42, .16);
+}
