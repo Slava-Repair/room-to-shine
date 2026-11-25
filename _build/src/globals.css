@@ -577,3 +577,23 @@
 #support-organizations a.organization-logo:hover {
   background: #f2e7eb;
 }
+
+/* One button-like link covers each organization's full card. */
+#support-organizations .organization-card {
+  background: #f3ece9;
+  box-shadow: 0 3px 8px rgba(50, 28, 42, .06), inset 0 1px 0 rgba(255, 255, 255, .6);
+}
+#support-organizations .organization-card-link {
+  cursor: pointer;
+  transition: background-color .18s ease, box-shadow .18s ease, transform .18s ease;
+}
+#support-organizations .organization-card-link:hover,
+#support-organizations .organization-card-link:focus-visible {
+  background: #eadfdc;
+  box-shadow: 0 5px 12px rgba(50, 28, 42, .10), inset 0 1px 0 rgba(255, 255, 255, .6);
+  transform: translateY(-1px);
+}
+#support-organizations .organization-card-link:active {
+  transform: translateY(0);
+  box-shadow: 0 1px 4px rgba(50, 28, 42, .08);
+}
