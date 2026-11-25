@@ -32,6 +32,6 @@ export const content = {
     {src:"/images/runway-2026-rose-back.jpg", title:"לקבל את מחיאות הכפיים", category:"על המסלול"},
     {src:"/images/runway-2026-white.jpg", title:"לצעוד בביטחון", category:"על המסלול"},
     {src:"/images/meeting.jpg", title:"המפגש הוא חלק מהדרך", category:"מאחורי הקלעים"},
-    {src:"/images/community.jpg", title:"מקשיבות, משתפות, יוצרות", category:"מאחורי הקלעים"},
+    {src:"/images/community-circle-2026.jpg", title:"מקשיבות, משתפות, יוצרות", category:"מאחורי הקלעים"},
   ],
 };
