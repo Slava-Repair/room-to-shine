@@ -1,0 +1,22 @@
+
+/* Official organization links and photo-style logo frames. */
+#support-organizations .organization-logo.has-logo {
+  padding: 6px;
+  outline: 1px solid rgba(50, 28, 42, .18);
+  outline-offset: 0;
+  box-shadow: none;
+}
+.organization-name-link {
+  text-decoration: underline;
+  text-decoration-color: #b99ca9;
+  text-decoration-thickness: 1px;
+  text-underline-offset: .22em;
+}
+.organization-name-link:hover,
+.organization-name-link:focus-visible {
+  color: #894062;
+  text-decoration-color: currentColor;
+}
+#support-organizations a.organization-logo:hover {
+  background: #f2e7eb;
+}
