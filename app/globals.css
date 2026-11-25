@@ -504,42 +504,47 @@
   object-position: 55% center;
 }
 
-/* A quiet brand watermark, separate from the text and music controls. */
-.kintsugi-text-frame {
+/* The transparent emblem sits beside the article, never behind the text. */
+.kintsugi-article {
   position: relative;
-  isolation: isolate;
-  aspect-ratio: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: clamp(2rem, 5vw, 3.25rem);
-  margin-top: .5rem;
+  max-width: 1100px;
+  padding-left: 320px;
 }
-.kintsugi-text-frame::before {
-  content: "";
+.kintsugi-emblem {
   position: absolute;
-  inset: 0;
-  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 270px;
+  aspect-ratio: 1373 / 935;
+  overflow: hidden;
   pointer-events: none;
-  background: url("/images/batel-kintsugi-watermark.png") 13% center / 138% 100% no-repeat;
-  mix-blend-mode: multiply;
-  opacity: .065;
+  opacity: .24;
 }
-.kintsugi-text-frame p {
-  position: relative;
+.kintsugi-emblem img {
+  width: 100%;
+  max-width: none;
+  height: auto;
+  filter: grayscale(1) sepia(.8) saturate(1.4) hue-rotate(285deg);
+}
+.kintsugi-copy {
+  margin-top: 1.5rem;
+}
+.kintsugi-article .kintsugi-copy p {
+  font-size: 1.1875rem;
   line-height: 1.9;
 }
-.kintsugi-text-frame p + p {
-  margin-top: 1.1rem;
+.kintsugi-copy p + p {
+  margin-top: 1.25rem;
+}
+@media (max-width: 900px) {
+  .kintsugi-article { padding-left: 0; }
+  .kintsugi-emblem {
+    position: relative;
+    width: 190px;
+    margin: 0 auto 2rem 0;
+  }
 }
 @media (max-width: 600px) {
-  .kintsugi-text-frame {
-    aspect-ratio: auto;
-    padding: 2rem 1.5rem;
-    border: 1px solid rgba(137, 64, 98, .12);
-  }
-  .kintsugi-text-frame::before {
-    background-size: 138% auto;
-    opacity: .065;
-  }
+  .kintsugi-emblem { width: 160px; margin-bottom: 1.5rem; }
+  .kintsugi-article .kintsugi-copy p { font-size: 1.125rem; }
 }

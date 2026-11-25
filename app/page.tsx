@@ -59,9 +59,10 @@ export default function Home(){
  </section>
   <section id="kintsugi" className="section kintsugi-section" aria-labelledby="kintsugi-title">
     <article className="kintsugi-article">
+      <div className="kintsugi-emblem" aria-hidden="true"><img src="/images/batel-founder-green-transparent.png" width={1373} height={1145} alt="" loading="lazy"/></div>
       <h2 id="kintsugi-title">קינטסוגי סטייל</h2>
       <KintsugiPlayer />
-      <div className="kintsugi-text-frame">
+      <div className="kintsugi-copy">
         <p>קינטסוגי (金継ぎ) היא אמנות יפנית מסורתית לתיקון כלי חרס שבורים באמצעות לכה טבעית מעץ האורושי המעורבבת באבקת זהב, כסף או פלטינה.</p>
         <p>הטכניקה צמחה ביפן בסוף המאה ה-15, כשאומנים חיפשו דרך מעודנת יותר מסיכות מתכת גסות לתקן את קערת התה האהובה של השוגון אשיקאגה יושימאסה.</p>
         <p>בניגוד לגישה שמסתירה תיקונים, הקינטסוגי מדגיש את קווי השבר כחלק מהביוגרפיה של הכלי, והכלי המתוקן נחשב ליצירה חד-פעמית ואף יקרה יותר מכלי שלם.</p>
