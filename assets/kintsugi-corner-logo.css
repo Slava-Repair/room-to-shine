@@ -1,0 +1,44 @@
+/* The transparent emblem sits beside the article, never behind the text. */
+.kintsugi-article {
+  position: relative;
+  max-width: 1100px;
+  padding-left: 320px;
+}
+.kintsugi-emblem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 270px;
+  aspect-ratio: 1373 / 935;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: .24;
+}
+.kintsugi-emblem img {
+  width: 100%;
+  max-width: none;
+  height: auto;
+  filter: grayscale(1) sepia(.8) saturate(1.4) hue-rotate(285deg);
+}
+.kintsugi-copy {
+  margin-top: 1.5rem;
+}
+.kintsugi-article .kintsugi-copy p {
+  font-size: 1.1875rem;
+  line-height: 1.9;
+}
+.kintsugi-copy p + p {
+  margin-top: 1.25rem;
+}
+@media (max-width: 900px) {
+  .kintsugi-article { padding-left: 0; }
+  .kintsugi-emblem {
+    position: relative;
+    width: 190px;
+    margin: 0 auto 2rem 0;
+  }
+}
+@media (max-width: 600px) {
+  .kintsugi-emblem { width: 160px; margin-bottom: 1.5rem; }
+  .kintsugi-article .kintsugi-copy p { font-size: 1.125rem; }
+}
